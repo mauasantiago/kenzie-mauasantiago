@@ -1,0 +1,45 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transition: 2s;
+}
+
+p{
+    color: blue;
+}
+div span {
+    color: red;
+}
+/* 
+ div p {
+    color: blueviolet;
+ } */
+
+ /* #id {
+    background-color: blueviolet;
+ } */
+
+ /* .classe {
+    background-color: aqua;
+ } */
+
+ /* #id div {
+    background-color: brown;
+ } */
+ 
+ div:hover {
+    width: 400px;
+ }
+
+ p {
+    width: fit-content;
+    border-bottom: 2px solid transparent;
+ }
+
+ p:hover {
+    transition: 2s;
+    text-decoration: underline;
+    border-bottom: 2px solid black;
+    
+ }

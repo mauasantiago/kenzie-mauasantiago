@@ -1,0 +1,31 @@
+.container{
+    background-color: rgb(182, 81, 34);
+    width: 50vw;
+    height: 60vw;
+}
+
+.div-1 {
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    /* padding: 10px; */
+    /* padding: 15px 20px 14px 12px; */
+    border: 2px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+    /* margin-top: 10px; */
+    /* border-top-width: 3px; */
+    /* border-top-style: dotted; */
+    /* border-top-color: red; */
+}
+.div-2 { 
+    background-color: blueviolet;
+    width: 50px;
+    height: 150px;
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+
+}
+

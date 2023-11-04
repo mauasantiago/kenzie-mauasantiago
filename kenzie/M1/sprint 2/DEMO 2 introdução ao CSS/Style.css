@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap');
+
+/* Seletore de tags; */
+
+
+/* h1 {color: rgb(213, 6, 255)} */
+/* p {color: rgb(25, 0, 255);} */
+/* h3 {color: blueviolet;} */
+/* span {   color: #000;} */
+
+
+/* Seletores de classe; */
+
+
+/* .description {color: green;} */ 
+.price{color: rgb(17, 0, 255);}
+
+
+/* Seletores de id; */
+
+
+#entry {color: rgb(255, 0, 0);}
+/* #principal {color: blue;} */
+.description {color: rgb(12, 25, 150);
+    font-size: 18px;
+    line-height: 55px;
+    font-weight: bold;
+    font-family: 'Pixelify Sans', cursive;
+}
+.price {font-weight: 900;
+font-size: 30px;}

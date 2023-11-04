@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários e Inputs</title>
+  </head>
+  <body>
+    <form action="./">
+      <fieldset>
+        <legend>Cadastro de Usuário</legend>
+        <div>
+          <label for="input_email">Email</label>
+          <input
+            type="email"
+            placeholder="Digite seu melhor email..."
+            id="input_email"
+            name="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="input_pass">Senha: </label>
+          <input
+            type="password"
+            placeholder="Digite uma senha segura..."
+            id="input_pass"
+            name="senha"
+            required
+          />
+        </div>
+        <div>
+          <label for="input_color">Cor preferida: </label>
+          <input type="color" id="input_color" />
+        </div>
+
+        <section>
+          <p>Selecione sua Turma:</p>
+          <div>
+            <label for="input_radio_t19">T19</label>
+            <input type="radio" id="input_radio_t19" value="t19" />
+          </div>
+          <div>
+            <label for="input_radio_t20">T20</label>
+            <input type="radio" id="input_radio_t20" value="t20" />
+          </div>
+          <div>
+            <label for="input_radio">T21</label>
+            <input type="radio" id="input_radio_t21" value="t21" />
+          </div>
+        </section>
+        <section>
+          <label for="select_instructor"> Selecione o Instrutor</label>
+          <select id="select_instructor">
+            <option value="alex">Alex Sakaki</option>
+            <option value="thiago">Thiago Koman</option>
+            <option value="lorena">Lorena</option>
+            <option value="chrys">Chrystian</option>
+          </select>
+        </section>
+        <div>
+          <label for="input_description">Fale sobre você:</label>
+        </div>
+        <textarea
+          id="input_description"
+          cols="30"
+          rows="5"
+          placeholder="Conte um pouco da sua história..."
+        >
+        </textarea>
+        <div>
+            <input type="submit" value="Cadastrar"/></div>
+      </fieldset>
+    </form>
+  </body>
+</html>

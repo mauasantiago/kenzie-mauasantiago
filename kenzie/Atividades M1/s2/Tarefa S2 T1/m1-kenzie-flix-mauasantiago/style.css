@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+button {
+    color: white;
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    max-width: 1000px;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   margin: auto;
+
+}
+.box:hover {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+ } 
+.box {
+    display: flex;
+    border-radius: 5%;
+    height: 150px;
+    width: 150px;
+}
+.newprofile {
+    border: 0px
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    margin:auto;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+    
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+li:hover img{
+    border: 1px solid white;
+}
+
+
+.card img {
+    max-width: 100%;
+}
+
+.username {
+    color: gray;
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+    li:hover .username {
+        color: white;
+    }
